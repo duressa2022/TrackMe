@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* styles.css */
+
+.introduction {
+    width: 500px;
+    height: 400x;
+
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #1c1e21;
+    position:absolute;
+    top:150px;
+    left:20px;
+}
+
+.loginForm {
+    width: 500px;
+    height: 320px;
+    background-color: #fff;
+    border: 1px solid #dddfe2;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #1c1e21;
+    position:absolute;
+    top:70px;
+    right:100px;
+}
+
+.myEmail, .mypassword, .mysubmit,.mycreate {
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: #f0f2f5;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #1c1e21;
+}
+
+.mysubmit {
+    background-color: #1877f2;
+    color: #fff;
+    cursor: pointer;
+    width:430px;
+}
+
+.myforgetpassword {
+    font-size: 14px;
+    color: #1877f2;
+    text-decoration: none;
+}
+
+
+.mycreate {
+    font-size: 14px;
+    color: white;
+    background-color:#0080ff;
+    text-decoration: none;
+    width:430px;
+    cursor:pointer;
+}
+

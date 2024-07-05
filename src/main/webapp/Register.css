@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/*register.css*/
+.register{
+	width:500px;
+	height:400px;
+	padding:20px;
+	margin:20px;
+	position:absolute;
+	top:150px;
+	left:10;
+	text-align:center;
+	color:#000000;
+	font-family:arial,san-serif;
+	padding:20px;
+	margin:20px;
+}
+.registerForm{
+	width:500px;
+	height:480px;
+	padding:20px;
+	margin:20px auto;
+	position:absolute;
+	right:100px;
+	top:40px;
+	border:1px solid #dddfe2;
+	border-radius:8px;
+	text-align:center;
+}
+.search,.firstName,.lastName,.email,.password,.Repassword,.RegisterButton,.ReaderLink{
+	width:80%;
+	height:40px;
+	padding:10px;
+	margin:10px auto;
+	border:1px solid #400000;
+	background-color:#f0f2f5;
+	border:1px solid #dddfe2;
+	border-radius:5px;
+}
+.RegisterButton{
+	cursor:pointer;
+	font-size:14px;
+	background-color:#0080ff;
+	width:430px;
+	color:white;
+	
+}
+.ReaderLink{
+	cursor:pointer;
+	font-size:30px;
+	background-color:#0080ff;
+	width:430px;
+	color:white;
+}
+.Register:hover{
+	background-color:red;
+	color:red;
+}
+.book{
+	width:80%;
+	height:40px;
+	padding:20px;
+	margin:5 auto;
+	border:1px solid #400000;
+	background-color:#f0f2f5;
+	border:1px solid #dddfe2;
+	border-radius:5px;
+}

@@ -1,0 +1,38 @@
+@charset "UTF-8";
+.home{
+	width:500px;
+	height:430px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	border:1px solid #dddfe2;;
+	border-radius:8px;
+	text-align:center;
+	font-family:arial,san-serif
+	
+}
+.welcome{
+	border:1px solid #dddfe2;
+	border-radius:5px;
+	font-family:arial,san-serif;
+	height:80px;
+	font-size:40px;
+
+}
+.header{
+	font-size:20px;
+}
+.reader,.progress,.logout{
+	width:400px;
+	height:50px;
+	padding:20px;
+	margin:20px;
+	border:1px solid #dddfe2;
+	border-radius:5px;
+	color:white;
+	background-color:#0080ff;
+	cursor:pointer;
+	font-family:arial,san-serif
+	
+}
